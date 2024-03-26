@@ -1,2 +1,8 @@
-# AI-Languages-Talk
- Welcome to the new revolution for pratice languages! You dont like talk with stranges for learn other languages? Now you can speak with my Artificial Inteligencia 100% free, this is a public and free project, so dont use for make money, i develop for all peoples can have acess a language learning. Enjoy!! ass. Luccas da Silva
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

@@ -1,0 +1,44 @@
+swagger: '2.0'
+info:
+  title: API de Usuários
+  version: '1.0.0'
+paths:
+  /api/users:
+    get:
+      summary: Retorna todos os usuários
+      responses:
+        200:
+          description: Lista de usuários
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/User'
+    post:
+      summary: Cria um novo usuário
+      parameters:
+        - in: body
+          name: user
+          description: Objeto do usuário
+          required: true
+          schema:
+            $ref: '#/definitions/User'
+      responses:
+        201:
+          description: Usuário criado com sucesso
+definitions:
+  User:
+    type: object
+    properties:
+      id:
+        type: integer
+        example: 1
+      name:
+        type: string
+        example: John Doe
+      email:
+        type: string
+        example: john@example.com
+    required:
+      - id
+      - name
+      - email
